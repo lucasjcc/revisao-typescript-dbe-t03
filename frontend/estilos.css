@@ -1,0 +1,15 @@
+input {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+button {
+  padding: 8px;
+}
+
+form {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}

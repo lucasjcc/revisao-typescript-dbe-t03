@@ -1,0 +1,14 @@
+@urlBase = http://localhost:3003
+
+###
+GET {{urlBase}}/usuarios
+
+###
+POST {{urlBase}}/usuarios
+Content-Type: application/json
+
+{
+  "nome": "Lucas",
+  "email": "lucas@gmail.com",
+  "senha": "123"
+}
